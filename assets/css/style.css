@@ -304,7 +304,7 @@ body {
 .navbar.active .navbar-list { opacity: 1; }
 
 .navbar-link {
-  color: white;
+  color: black;
   font-family: var(--ff-league-spartan);
   padding: 10px 0;
   line-height: 1.2;
@@ -312,9 +312,10 @@ body {
   transition: var(--transition-1);
   font-weight: 700;
 font-size: 16px;
+border-bottom: 1px solid #00000026;
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--red-crayola); }
+.navbar-link:is(:hover, :focus) { color: #f0931e; }
 
 .header .btn { margin-block-start: 10px; }
 
