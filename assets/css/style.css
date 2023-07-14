@@ -1349,3 +1349,13 @@ display: block;}
   padding: 2vh;
   width: 95vw;}
   .footer .row3 .copy{}
+
+
+
+  @media (min-width: 993px) and (max-width: 7100px) {
+    #lin{color: white;}
+    #lin2{color: white;}
+    #lin3{color: white;}
+    #lin4{color: white;}
+    #lin44{color: white;}
+  }
